@@ -20,3 +20,18 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+kernel-dal-monitor/.classpath
+kernel-dal-monitor/.project
+kernel-dal-monitor/.settings/org.eclipse.core.resources.prefs
+kernel-dal-monitor/.settings/org.eclipse.jdt.core.prefs
+kernel-dal-monitor/.settings/org.eclipse.m2e.core.prefs
+kernel-dal-secondaryindex/.classpath
+kernel-dal-secondaryindex/.project
+kernel-dal-secondaryindex/.settings/org.eclipse.core.resources.prefs
+kernel-dal-secondaryindex/.settings/org.eclipse.jdt.core.prefs
+kernel-dal-secondaryindex/.settings/org.eclipse.m2e.core.prefs
+kernel-lppz-dal/.classpath
+kernel-lppz-dal/.project
+kernel-lppz-dal/.settings/org.eclipse.core.resources.prefs
+kernel-lppz-dal/.settings/org.eclipse.jdt.core.prefs
+kernel-lppz-dal/.settings/org.eclipse.m2e.core.prefs

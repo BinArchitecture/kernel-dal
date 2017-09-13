@@ -1,0 +1,27 @@
+<!DOCTYPE mycat:server SYSTEM "server.dtd">
+<mycat:server xmlns:mycat="http://io.mycat/">
+    <system>
+        <property name="useSqlStat">1</property>
+        <property name="useGlobleTableCheck">0</property>
+        <property name="defaultSqlParser">druidparser</property>
+        <property name="sequnceHandlerType">2</property>
+        <property name="processorBufferPoolType">0</property>
+        <property name="handleDistributedTransactions">0</property>
+        <property name="serverPort">7066</property>
+        <property name="managerPort">7166</property>
+        <property name="useOffHeapForMerge">1</property>
+        <property name="memoryPageSize">1m</property>
+        <property name="spillsFileBufferSize">1k</property>
+        <property name="useStreamOutput">0</property>
+        <property name="systemReserveMemorySize">389m</property>
+    </system>
+    <user name="root">
+        <property name="password">root</property>
+        <property name="schemas">TESTDB</property>
+    </user>
+    <user name="app">
+        <property name="password">app</property>
+        <property name="schemas">TESTDB</property>
+        <property name="readOnly">true</property>
+    </user>
+</mycat:server>
